@@ -7,9 +7,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-/**
-
- */
 public class SudokuBacktracking 
 {
 
@@ -19,8 +16,6 @@ public class SudokuBacktracking
        readGrid();
        printGrid();
        
-       
-   
     }
 
     public static void readGrid() throws FileNotFoundException{
@@ -45,7 +40,6 @@ public class SudokuBacktracking
     }
     
     public static void printGrid(){
-        
         
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
